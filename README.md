@@ -1,12 +1,31 @@
-# Starter Next/Hardhat Project
+# Metacrafters ATM
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+Welcome to the Metacrafters ATM repository. This project is a simple decentralized application (DApp) and a Solidity smart contract that allows users to interact with the Ethereum blockchain. Users can connect their Ethereum wallet, view their account balance, deposit Ether (ETH), withdraw ETH, and view their transaction history.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Features
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+- **Wallet Integration**: Connect your MetaMask wallet to the DApp.
+- **Balance Inquiry**: View your account balance without making a transaction.
+- **Deposit Funds**: Deposit ETH into the contract.
+- **Withdraw Funds**: Withdraw ETH from the contract.
+- **Transaction History**: View your transaction history.
+
+## Getting Started
+
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js and npm (Node Package Manager) installed on your machine.
+- A MetaMask wallet installed in your browser with some test Ether (ETH).
+
+### Installation
+
+To set up the development environment, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/metacrafters-atm.git
